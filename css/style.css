@@ -119,11 +119,14 @@ h2 {
     display: flex;
     justify-content: center;
     margin: 2rem 0;
+    width: 100%;
+    padding: 0 1rem;
 }
 .video-contenedor iframe {
     width: 100%;
-    max-width: 70%;
-    height: 450px;
+    max-width: 800px;
+    aspect-ratio: 16 / 9;
+    height: auto;
 }
 
 /* Estilo del grupo 1 para index.html */
